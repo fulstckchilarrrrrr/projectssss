@@ -1,0 +1,352 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* fraunces-100 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/fraunces-v38-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fraunces-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/fraunces-v38-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fraunces-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/fraunces-v38-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fraunces-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/fraunces-v38-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fraunces-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/fraunces-v38-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fraunces-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/fraunces-v38-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fraunces-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/fraunces-v38-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fraunces-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/fraunces-v38-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fraunces-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/fraunces-v38-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-100 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/inter-v20-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/inter-v20-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/inter-v20-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/inter-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/inter-v20-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* hero  */
+
+.hero {
+    padding-top: 40px;
+    padding-bottom: 119px;
+}
+.container {
+}
+.hero-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-title {
+    font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+line-height: 37.5px;
+letter-spacing: 0.2px;
+text-align: center;
+color: #1F1F1F;
+padding-bottom: 23px;
+}
+.hero-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 160px;
+}
+
+.hero-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+.hero-card {
+    padding: 32px 10px 40px;
+}
+
+.hero-card-title {
+    font-family: Fraunces;
+font-weight: 400;
+font-style: Regular;
+font-size: 25px;
+line-height: 31.25px;
+letter-spacing: 0.2px;
+margin-top: 8px;
+margin-bottom: 11px;
+}
+
+
+.hero-card:nth-child(1) {
+    background-color: #FAEA73;
+}
+
+.hero-card:nth-child(2) {
+    background-color: #CCEFF6;
+}
+
+.hero-card:nth-child(3) {
+    background-color:#F7CEDC;
+}
+
+
+/* service  */
+
+.service {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F7F9FA;
+}
+
+.service-title {
+    max-width: 629px;
+    font-family: Fraunces;
+font-weight: 400;
+font-style: Regular;
+font-size: 39px;
+line-height: 50.4px;
+letter-spacing: 0.5px;
+color: #1F1F1F;
+}
+.service-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-box {
+    max-width: 485px;
+}
+.service-hr {
+    margin: 0;
+    border: none;
+    max-width: 485px;
+    height: 2px;
+    border-top: 1px solid #C2CDD8;
+}
+
+.service-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: space-between;
+    padding: 16px 0;
+    cursor: pointer;
+}
+
+.service-card-title {
+     font-family: Fraunces;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25.2px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+    margin-top: 0;      
+    flex: 1; 
+}
+
+.service-card-text {
+    font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.2px;
+margin-top: 18px;
+color: #1F1F1F;
+margin-left: 42px;
+margin-bottom: 8px;
+}
+
+
+/* about  */
+
+.about {
+    padding: 120px 0;
+}
+.about-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 98px;
+}
+.about-title {
+    max-width: 300px;
+    font-family: Fraunces;
+font-weight: 400;
+font-style: Regular;
+font-size: 42px;
+line-height: 50.4px;
+letter-spacing: 0.2px;
+color: #1F1F1F;
+}
+.about-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    
+}
+
+.about-card-title {
+    font-family: Fraunces;
+font-weight: 400;
+font-style: Regular;
+font-size: 25px;
+line-height: 31.25px;
+letter-spacing: 0.2px;
+color: #1F1F1F;
+margin-top: 8px;
+}
+.about-card-text {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+    margin-top: 13px;
+}
+
+.about-box-card {
+    max-width: 222px;
+}
