@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* footer  */
+
+.footer {
+    margin-top: 56px;
+    width: 1130px;
+    height: 370px;
+    background-color: #E6F7FF;
+    margin-left: 155px;
+    margin-bottom: 30px;
+}
+.container {
+}
+.footer-inner {
+}
+.main-footer {
+    margin-left: 64px;
+}
+.main-title {
+    
+    padding-top: 63px;
+    padding-bottom: 18px;
+    font-family: Fraunces;
+font-weight: 400;
+font-style: Regular;
+font-size: 42px;
+leading-trim: NONE;
+line-height: 50.4px;
+letter-spacing: 0.2px;
+color: #1F1F1F
+}
+.main-text {
+    padding-top: 21;
+    padding-bottom: 33px;
+}
+.main-btn {
+    margin-bottom: 20px;
+width: 174px;
+height: 43px;
+background: #0070A0;
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 17px;
+leading-trim: NONE;
+line-height: 27px;
+letter-spacing: 0.2px;
+text-align: center;
+color: white;
+}
+
+.bottom-things {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.bottom-text {
+    font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 13px;
+leading-trim: NONE;
+line-height: 21px;
+letter-spacing: 0.2px;
+color: #626A72;
+}
+
+/* footer-bottom  */
+
+.footer {
+    margin-top: 128px;
+}
+.container {
+}
+.footer-inner {
+}
+.main-footer {
+    margin-left: 64px;
+}
+.main-title {
+}
+.main-text {
+}
+span {
+    color: #0070A0;
+}
+.main-btn {
+}
+.bottom-things {
+}
+.bottom-text {
+}
+.bottom-box {
+    display: flex;
+
+}
+.footer-bottom {
+    margin-left: 150px;
+}
+.footer-bottom-inner {
+}
+.bottom-logo-texts {
+}
+.logo-text {
+    font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 19.6px;
+letter-spacing: 0.2px;
+color: #1F1F1F;
+}
+.section-nav {
+    padding-left: 205px;
+}
+.section-nav ul, li, a {
+    text-decoration: none;
+    list-style-type: none;
+}
+.nav-title {
+}
+.nav-text {
+}
+.Email-things {
+    max-width: 216px;
+    max-height: 216px;
+    padding-left: 100px;
+}
+.email-title {
+}
+.email-text {
+}
+.bottom-hr {
+    padding-top: 36px;
+    margin-bottom: 36px;
+    max-width: 1130px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-hr img {
+    max-width: 1130px;
+    padding-top: 36px;
+}
+.big-hr {
+    margin-top: 64px;
+}
