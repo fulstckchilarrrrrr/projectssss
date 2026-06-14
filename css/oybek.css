@@ -8,16 +8,13 @@
 
 .footer {
     margin-top: 56px;
-    width: 1130px;
+    width: 1400px;
     height: 370px;
     background-color: #E6F7FF;
     margin-left: 155px;
     margin-bottom: 30px;
 }
-.container {
-}
-.footer-inner {
-}
+
 .main-footer {
     margin-left: 64px;
 }
@@ -29,7 +26,7 @@
 font-weight: 400;
 font-style: Regular;
 font-size: 42px;
-leading-trim: NONE;
+
 line-height: 50.4px;
 letter-spacing: 0.2px;
 color: #1F1F1F
@@ -47,7 +44,7 @@ font-family: Inter;
 font-weight: 400;
 font-style: Regular;
 font-size: 17px;
-leading-trim: NONE;
+
 line-height: 27px;
 letter-spacing: 0.2px;
 text-align: center;
@@ -65,7 +62,7 @@ color: white;
 font-weight: 400;
 font-style: Regular;
 font-size: 13px;
-leading-trim: NONE;
+
 line-height: 21px;
 letter-spacing: 0.2px;
 color: #626A72;
@@ -76,26 +73,15 @@ color: #626A72;
 .footer {
     margin-top: 128px;
 }
-.container {
-}
-.footer-inner {
-}
+
 .main-footer {
     margin-left: 64px;
 }
-.main-title {
-}
-.main-text {
-}
+
 span {
     color: #0070A0;
 }
-.main-btn {
-}
-.bottom-things {
-}
-.bottom-text {
-}
+
 .bottom-box {
     display: flex;
 
@@ -103,16 +89,13 @@ span {
 .footer-bottom {
     margin-left: 150px;
 }
-.footer-bottom-inner {
-}
-.bottom-logo-texts {
-}
+
 .logo-text {
     font-family: Inter;
 font-weight: 400;
 font-style: Regular;
 font-size: 14px;
-leading-trim: NONE;
+
 line-height: 19.6px;
 letter-spacing: 0.2px;
 color: #1F1F1F;
@@ -124,19 +107,13 @@ color: #1F1F1F;
     text-decoration: none;
     list-style-type: none;
 }
-.nav-title {
-}
-.nav-text {
-}
+
 .Email-things {
     max-width: 216px;
     max-height: 216px;
     padding-left: 100px;
 }
-.email-title {
-}
-.email-text {
-}
+
 .bottom-hr {
     padding-top: 36px;
     margin-bottom: 36px;
